@@ -10,11 +10,9 @@ header {
 }
 /* Estilos de la página */
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, #667eea, #764ba2);
-  #background-color: var(--color-fondo);
   font-family: Arial, sans-serif;
   color: #FFFFFF; /* Color del texto general */
   height: 100vh; /* Altura del cuerpo */
@@ -23,9 +21,9 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 600px;
-  margin: 0 auto;
+  /*width: 90%;*/
+  /*max-width: 600px;*/
+  /*margin: 0 auto;*/
   width: 50%; /* Ancho del contenedor */
   margin: auto; /* Establecer margen automático */
 }
