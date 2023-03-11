@@ -17,12 +17,17 @@ body {
   #background-color: var(--color-fondo);
   font-family: Arial, sans-serif;
   color: #FFFFFF; /* Color del texto general */
+  height: 100vh; /* Altura del cuerpo */
+  display: flex; /* Mostrar elementos como caja flexible */
+  align-items: center; /* Centrar elementos verticalmente */
 }
 
 .container {
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
+  width: 50%; /* Ancho del contenedor */
+  margin: auto; /* Establecer margen automático */
 }
 
 h1 {
