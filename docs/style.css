@@ -1,0 +1,92 @@
+/* Definición de colores */
+:root {
+  --color-fondo: #242424;
+  --color-tarea: #FFFFFF;
+  --color-tarea-completada: #B2B2B2;
+}
+
+header {
+  background: linear-gradient(to bottom, #667eea, #764ba2);
+}
+/* Estilos de la página */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #667eea, #764ba2);
+  #background-color: var(--color-fondo);
+  font-family: Arial, sans-serif;
+  color: #FFFFFF; /* Color del texto general */
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Estilos de la lista de tareas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: var(--color-tarea);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #242424; /* Color del texto en las tareas */
+}
+
+li.completada {
+  background-color: var(--color-tarea-completada);
+  text-decoration: line-through;
+  color: #666666; /* Color del texto en tareas completadas */
+}
+
+/* Estilos del formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #242424; /* Color del texto en los inputs */
+  background-color: var(--color-tarea);
+}
+
+button {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
